@@ -4,13 +4,7 @@ import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 
 /**
- * Dilation operation for grayscaled images. The dilation operand will for every
- * pixel search for the pixel in a neighborhood around it, i.e. structuring
- * element, with the highest luminace value. The pixel under investigation will
- * then be set to the latter value.
- * The end result will be a dilation of bright structures in the image.
- * 
- * @author Tomas
+ * Dilation operation for grayscaled images. 
  * 
  */
 public class Dilation extends AbstractOperation {
