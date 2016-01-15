@@ -2,13 +2,7 @@ import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 /**
- * Erosion operation for grayscaled images. The Erosion operand will for every
- * pixel search for the pixel in a neighborhood around it, i.e. structuring
- * element, with the lowest luminace value. The pixel under investigation will
- * then be set to the latter value.
- * The end result will be a erosion of bright structures in the image.
  * 
- * @author Tomas
  * 
  */
 public class Erosion extends AbstractOperation {
