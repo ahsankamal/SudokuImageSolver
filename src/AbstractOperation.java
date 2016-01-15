@@ -2,7 +2,9 @@
 import java.awt.image.BufferedImage;
 
 /**
- * 
+ * Abstract morphological base class.
+ *Dilation code copied from
+ *  author Tomas Toss
  * 
  */
 public abstract class AbstractOperation implements MorphologicalOperation {
