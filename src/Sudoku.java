@@ -248,8 +248,11 @@ try{
 	        	 if(reset[row][col]!=0)
                  tfCells[row][col].setBackground(Color.GREEN);
 	        	 else
+	        	 {
+	        		 if(reset[row][col]==0)
+	    	        	 tfCells[row][col].setText("");//empty
 	             tfCells[row][col].setBackground(Color.YELLOW);
-	 
+	        	 }
 
 	        	 
 	         }
