@@ -3,8 +3,8 @@ import java.awt.image.BufferedImage;
 
 /**
  * Abstract morphological base class.
- * 
- * @author Tomas Toss
+ *Dilation code copied from
+ *  author Tomas Toss
  * 
  */
 public abstract class AbstractOperation implements MorphologicalOperation {
@@ -24,6 +24,12 @@ public abstract class AbstractOperation implements MorphologicalOperation {
          *            The size from the middle of the shape to exterior of the
          *            shape. (Total size = 2*shapeSize+1)
          * @return The constructed structuring element
+         * 
+         * Abstract morphological base class.
+ * 
+ * @author Tomas Toss
+         * 
+         * 
          */
         protected short[][] constructShape(STRUCTURING_ELEMENT_SHAPE shape,
                         int shapeSize) {
